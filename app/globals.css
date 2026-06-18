@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --cream: #fff4dc;
+  --green: #214128;
+  --ink: #263327;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  min-height: 100vh;
+  background: #fff8ec;
+  color: var(--ink);
+}
+
+::selection {
+  background: #f4aa32;
+  color: #214128;
+}
+
+.organic-card {
+  position: relative;
+  overflow: hidden;
+}
+
+.organic-card::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: radial-gradient(circle at top right, rgba(244, 170, 50, .20), transparent 36%);
+  pointer-events: none;
+}
+
+.glass-panel {
+  background: rgba(255, 251, 242, 0.78);
+  border: 1px solid rgba(33, 65, 40, 0.10);
+  backdrop-filter: blur(16px);
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-full bg-mangora-green px-6 py-3 text-sm font-bold text-white shadow-card transition hover:-translate-y-0.5 hover:bg-mangora-leaf focus:outline-none focus:ring-4 focus:ring-mangora-mango/30;
+}
+
+.btn-secondary {
+  @apply inline-flex items-center justify-center rounded-full border border-mangora-green/20 bg-white/70 px-6 py-3 text-sm font-bold text-mangora-green shadow-card transition hover:-translate-y-0.5 hover:border-mangora-mango hover:bg-white focus:outline-none focus:ring-4 focus:ring-mangora-mango/25;
+}
+
+.input-base {
+  @apply w-full rounded-2xl border border-mangora-green/15 bg-white px-4 py-3 text-sm outline-none transition placeholder:text-mangora-ink/40 focus:border-mangora-mango focus:ring-4 focus:ring-mangora-mango/20;
+}
+
+@keyframes floatBottle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-12px); }
+}
+
+.float-bottle {
+  animation: floatBottle 5.5s ease-in-out infinite;
+}
+
+@keyframes fadeUp {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.fade-up {
+  animation: fadeUp .8s ease both;
+}
