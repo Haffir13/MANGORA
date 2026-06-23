@@ -14,7 +14,7 @@ export function WhatsAppButton() {
      <img
               src="/images/icons8-whatsapp (1).gif"
               alt="ppw"
-              className="h-[520px] w-full rounded-[2rem] object-cover"
+              
             />
     </a>
   );
