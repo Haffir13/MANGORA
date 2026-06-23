@@ -12,8 +12,8 @@ export function WhatsAppButton() {
       aria-label="Escribir por WhatsApp"
     >
       <img
-              src=https://iconos8.es/icon/BkugfgmBwtEI/whatsapp
-              alt="Botellas de vinagre de mango piurano MANGORA"
+              src="https://iconos8.es/icon/BkugfgmBwtEI/whatsapp"
+              alt="whatsapp"
               className="h-[520px] w-full rounded-[2rem] object-cover"
             />
     </a>
