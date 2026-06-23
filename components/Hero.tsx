@@ -36,7 +36,7 @@ export function Hero() {
         <div className="relative z-10 mx-auto w-full max-w-xl">
           <div className="organic-card float-bottle rounded-[2.5rem] border border-white/70 bg-white/50 p-4 shadow-soft backdrop-blur">
             <img
-              src="/images/mangora-producto1.jpg"
+              src="/images/mangora-producto1.png"
               alt="Botellas de vinagre de mango piurano MANGORA"
               className="h-[520px] w-full rounded-[2rem] object-cover"
             />
