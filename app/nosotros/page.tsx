@@ -24,7 +24,7 @@ export default function NosotrosPage() {
           </div>
         </div>
         <div className="rounded-[2.5rem] border border-mangora-green/10 bg-white p-4 shadow-soft">
-          <img src="/images/etiqueta-mangora.jpg" alt="Etiqueta MANGORA" className="h-[560px] w-full rounded-[2rem] object-cover" />
+          <img src="/images/mangora-producto1.png" alt="Etiqueta MANGORA2" className="h-[560px] w-full rounded-[2rem] object-cover" />
         </div>
       </div>
     </section>
