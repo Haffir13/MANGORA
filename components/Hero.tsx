@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-const highlights = ["Producto artesanal", "Mango piurano seleccionado", "Economía circular", "Acidez 5% aprox.", "Contenido neto 250 ml"];
+const highlights = ["Producto artesanal", "Mango piurano seleccionado", "Economía circular", "Acidez 5% aprox.", "Contenido neto 300 ml"];
 
 export function Hero() {
   return (
