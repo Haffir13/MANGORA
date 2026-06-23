@@ -8,7 +8,7 @@ export function ProducerThanksCard({ lot }: { lot: TraceabilityLot }) {
       <div className="grid gap-0 lg:grid-cols-[0.9fr_1.1fr]">
         <div className="relative min-h-[280px] bg-mangora-cream">
           <img
-            src={producer.foto || "/images/productor-mango-placeholder.svg"}
+            src={producer.foto || "/images/productor-mango-placeholder.png"}
             alt={`Productor del mango para el lote ${lot.lote}`}
             className="h-full min-h-[280px] w-full object-cover"
           />
