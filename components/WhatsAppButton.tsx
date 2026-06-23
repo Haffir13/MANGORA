@@ -12,7 +12,7 @@ export function WhatsAppButton() {
       aria-label="Escribir por WhatsApp"
     >
      <img
-              src="/images/icons8-whatsapp (1).gif"
+              src="—Pngtree—whatsapp color icon whatsapp icon_4246357.png"
               alt="ppw"
               
             />
