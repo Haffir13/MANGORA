@@ -29,7 +29,7 @@ export default function HomePage() {
         <SectionTitle
           eyebrow="Beneficios"
           title="Un vinagre natural pensado para cocinar, innovar y aprovechar mejor nuestros recursos"
-          subtitle="MANGORA combina sabor, origen piurano y sostenibilidad en una presentación artesanal de 250 ml."
+          subtitle="MANGORA combina sabor, origen piurano y sostenibilidad en una presentación artesanal de 300 ml."
           center
         />
         <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
