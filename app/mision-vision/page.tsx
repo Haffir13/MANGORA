@@ -35,7 +35,7 @@ export default function MisionVisionPage() {
         <div className="mt-8 grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {values.map((value) => (
             <div key={value} className="rounded-3xl border border-mangora-green/10 bg-white p-6 text-center shadow-card">
-              <p className="text-3xl">🌿</p>
+              <p className="text-3xl">🥭</p>
               <h3 className="mt-4 text-xl font-black text-mangora-green">{value}</h3>
             </div>
           ))}
