@@ -24,7 +24,6 @@ export function Footer() {
             <Link href="/pedido" className="hover:text-white">Tu pedido</Link>
             <Link href="/trazabilidad" className="hover:text-white">Trazabilidad</Link>
             <Link href="/nosotros" className="hover:text-white">Nosotros</Link>
-            <Link href="/admin-info" className="hover:text-white">Admin info</Link>
           </div>
         </div>
 
@@ -34,7 +33,7 @@ export function Footer() {
             Piura, Castilla, Veintiséis de Octubre y coordinación para otros distritos.
           </p>
           <p className="mt-5 text-xs text-white/55">
-            Producto piloto con fines educativos y de validación comercial.
+            Producto piloto con fines de validación comercial.
           </p>
         </div>
       </div>
